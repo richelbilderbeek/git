@@ -29,6 +29,14 @@ git commit -m "Changed this"
 git push
 ```
 
+## My setup
+
+```
+git config --global user.email "richel@richelbilderbeek.nl"
+git config --global user.name "richelbilderbeek"
+```
+
+
 ## Password once per ten hours
 
 ```
