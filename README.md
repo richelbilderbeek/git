@@ -44,3 +44,6 @@ git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=36000'
 ```
 
+## Which issues are assigned to me?
+
+Go to https://github.com/issues/assigned
