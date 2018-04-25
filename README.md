@@ -4,8 +4,27 @@ My favorite git commands.
 
 ## Setup
 
+### GNU/Linux
+
+Install `git` from the command line:
+
 ```
+sudo apt install git
 ```
+
+### Peregrine
+
+`git` needs to be loaded:
+
+```
+module load git
+```
+
+### Windows
+
+Download and install `git` from [https://git-scm.com/downloads](https://git-scm.com/downloads).
+
+Then start 'Git Bash' for a terminal.
 
 ## General workflow
 
@@ -36,6 +55,7 @@ git config --global user.email "richel@richelbilderbeek.nl"
 git config --global user.name "richelbilderbeek"
 ```
 
+On any new computer, I just run [setup](setup).
 
 ## Password once per ten hours
 
