@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for folder in `ls -d */`
+do
+  echo "folder: "$folder
+
+  cd $folder
+  git add --all :/
+  git commit -m "EOD"
+  git pull
+  git push
+  cd ..
+done
