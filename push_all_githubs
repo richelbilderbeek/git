@@ -2,12 +2,17 @@
 
 for folder in `ls -d */`
 do
-  echo "folder: "$folder
 
   cd $folder
-  git add --all :/
-  git commit -m "EOD"
-  git pull
-  git push
+
+  if [ -d ".git" ]
+  then
+    echo "git folder: "$folder
+    git add --all :/
+    git commit -m "EOD"
+    git pull
+    git push
+  fi
+
   cd ..
 done

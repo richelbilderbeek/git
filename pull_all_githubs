@@ -3,6 +3,11 @@
 for folder in `ls -d */`
 do
   cd $folder
-  git pull
+
+  if [ -d ".git" ]
+  then
+    git pull
+  fi
+
   cd ..
 done
