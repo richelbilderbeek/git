@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "EOD"
+    git commit -m "All Brainweaver dialogs can open and close"
     git pull
     git push
   fi
