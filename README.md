@@ -71,3 +71,17 @@ git config --global credential.helper 'cache --timeout=36000'
 ## Which issues are assigned to me?
 
 Go to https://github.com/issues/assigned
+
+## No
+
+From [here](https://stackoverflow.com/questions/36783566/git-pull-opens-vim-even-with-no-edit):
+
+```
+git config --global core.mergeoptions --no-edit
+```
+
+and
+
+```
+echo 'export GIT_MERGE_AUTOEDIT=no' >> /home/richel/.bashrc && . /home/richel/.bashrc
+```
