@@ -1,0 +1,15 @@
+#!/bin/bash
+
+for folder in `ls -d */`
+do
+  cd $folder
+
+  if [ -d ".git" ]
+  then
+    git pull
+    git checkout develop
+    git checkout richel
+  fi
+
+  cd ..
+done
