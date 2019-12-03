@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for folder in `ls -d */`
+for folder in $(ls -d */)
 do
 
   cd $folder
@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "Travis installs less packages"
+    git commit -m "EOD"
     git pull
     git push
   fi
