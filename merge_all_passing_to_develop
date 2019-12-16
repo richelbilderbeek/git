@@ -1,0 +1,23 @@
+#!/bin/bash
+#
+# Merge all branches that pass to develop
+#
+# Usage:
+# 
+# ./merge_all_passing_to_develop
+
+# Remote branches
+branches=$(git branch -r | egrep -v "HEAD" | sed 's/origin\///g')
+
+passing_branches=$(travis branches | egrep passed | egrep -v "$v0\." | cut -f 1 -d ":")
+
+for branch in $passing_branches
+do
+  git checkout $branch
+  git pull
+  git checkout develop
+  git merge $branch
+  git push
+done
+
+
