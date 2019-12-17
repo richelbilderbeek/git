@@ -3,9 +3,6 @@
 # Remote branches
 branches=$(git branch -r | egrep -v "HEAD" | sed 's/origin\///g')
 
-# Local branches only
-# branches=$(git branch --list --all | egrep -v "remotes/" | egrep -v "\*")
-
 passing_branches=$(travis branches | egrep passed | egrep -v "$v0\." | cut -f 1 -d ":")
 
 for branch in $passing_branches
