@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# Merge the richel branch to the develop branch iff richel passes
+#
+#
+
+# Remote branches
+branches=$(git branch -r | egrep -v "HEAD" | sed 's/origin\///g')
+
+passing_branches=$(travis branches | egrep passed | egrep "richel:" | cut -f 1 -d ":")
+
+for branch in $passing_branches
+do
+  git checkout $branch
+  git pull
+  git checkout develop
+  git merge $branch
+  git push
+  git checkout richel
+done
+
+
