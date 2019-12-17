@@ -9,7 +9,7 @@
 
 for folder in $(ls -d */)
 do
-  cd folder
+  cd $folder
   ../git/merge_all_passing_to_richel
   cd ..
 done
