@@ -1,6 +1,13 @@
 #!/bin/bash
+#
+# Checkout the richel branch. 
+# If there is no richel branch, checkout the develop branch
+#
+# Usage:
+#
+#   ./git/checkout_richel_else_develop
 
-for folder in `ls -d */`
+for folder in $(ls -d */)
 do
   cd $folder
 
