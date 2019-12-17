@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# For all folders, merge all passing develop branches to the master branch
+#
+# Usage:
+#
+# ./git/recursive_merge_passing_develop_to_master
+#
+
+for folder in $(ls -d */)
+do
+  cd $folder
+  ../git/merge_passing_develop_to_master
+  cd ..
+done
+
+
