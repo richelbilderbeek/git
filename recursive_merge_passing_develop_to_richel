@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# For all folders, merge all passing develop branches to the richel branch
+#
+# Usage:
+#
+# ./git/recursive_merge_passing_develop_to_richel
+#
+
+for folder in $(ls -d */)
+do
+  cd $folder
+  ../git/merge_passing_develop_to_richel
+  cd ..
+done
+
+
