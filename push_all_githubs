@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "lint only one branch"
+    git commit -m "Shortened to 'get_sim_twal_same_n_muts_fun', thanks @lintr-bot"
     git pull
     git push
   fi
