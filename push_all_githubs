@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "EOD"
+    git commit -m "thijsjanzen is the owner of the nLTT package"
     git pull
     git push
   fi
