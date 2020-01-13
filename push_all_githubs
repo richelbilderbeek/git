@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "Link all razzo-related repos"
+    git commit -m "babette is on CRAN, use CRAN packages"
     git pull
     git push
   fi
