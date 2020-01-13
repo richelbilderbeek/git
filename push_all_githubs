@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for folder in $(ls -d */)
+for folder in $(ls -d */ | egrep -v "(Urho3D|mycroft|\.Rcheck/)")
 do
 
   cd $folder
