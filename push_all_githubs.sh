@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "EOD"
+    git commit -m "Depend on tiebeaur"
     git pull
     git push
   fi
