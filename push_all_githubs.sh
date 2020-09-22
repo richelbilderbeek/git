@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "Do not install ImageMagick from PPA"
+    git commit -m "No need to update R packages for now"
     git pull
     git push
   fi
