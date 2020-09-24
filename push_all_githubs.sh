@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "No need to update R packages for now"
+    git commit -m "No testthat tests in example code"
     git pull
     git push
   fi
