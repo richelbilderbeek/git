@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "No testthat tests in example code"
+    git commit -m "Transferred richelbilderbeek/mcbette to ropensci/mcbette"
     git pull
     git push
   fi
