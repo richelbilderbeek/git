@@ -1,0 +1,20 @@
+#!/bin/bash
+
+for folder in $(ls -d */)
+do
+
+  cd $folder
+
+  if [ -d ".git" ]
+  then
+    echo "git folder: "$folder
+    git checkout master
+    git pull
+    git checkout develop
+    git pull
+    git merge master
+    git push
+  fi
+
+  cd ..
+done
