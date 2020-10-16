@@ -9,9 +9,9 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "EOD"
+    git commit -m "Add trailing slash to URL, thanks Uwe Ligges"
     git pull
-    git push
+    #git push
   fi
 
   cd ..
