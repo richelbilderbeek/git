@@ -72,7 +72,7 @@ git config --global credential.helper 'cache --timeout=36000'
 
 Go to `https://github.com/issues/assigned` when logged in.
 
-## No
+## Remove editor asking for a prompt when merging
 
 From [here](https://stackoverflow.com/questions/36783566/git-pull-opens-vim-even-with-no-edit):
 
