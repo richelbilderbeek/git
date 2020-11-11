@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "use 'message' instead of 'print'"
+    git commit -m "use 'devtools::session_info' instead of 'utils::sessionInfo'"
     git pull
     git push
   fi
