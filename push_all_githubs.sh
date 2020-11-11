@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "EOD"
+    git commit -m "use 'message' instead of 'print'"
     git pull
     git push
   fi
