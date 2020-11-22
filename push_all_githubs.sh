@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "More packages are on CRAN"
+    git commit -m "Do not install imagemagic PPA"
     git pull
     git push
   fi
