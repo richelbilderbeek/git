@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "EOD"
+    git commit -m "Determine if test is run on a CI server, instead of just Travis"
     git pull
     git push
   fi
