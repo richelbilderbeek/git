@@ -1,0 +1,12 @@
+on:
+  push:
+  pull_request:
+
+name: Check
+
+jobs:
+  my_build:
+    steps:
+      - name: Download thesis
+        run: wget https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf
+
