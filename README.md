@@ -1,8 +1,9 @@
 # git
 
-Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
----|---
-`master`|[![Build Status](https://travis-ci.org/richelbilderbeek/git.svg?branch=master)](https://travis-ci.org/richelbilderbeek/git)
+Branch   |[GitHub Actions](https://github.com/richelbilderbeek/git/actions)                                     
+---------|------------------------------------------------------------------------------------------------------
+`master` |![R-CMD-check](https://github.com/richelbilderbeek/git/workflows/R-CMD-check/badge.svg?branch=master) 
+`develop`|![R-CMD-check](https://github.com/richelbilderbeek/git/workflows/R-CMD-check/badge.svg?branch=develop)
 
 My favorite git commands.
 
