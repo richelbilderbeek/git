@@ -6,8 +6,8 @@ name: Check
 
 jobs:
   my_build:
-    runs-on: macOS-latest
+    runs-on: ubuntu-18.04
     steps:
-      - name: Download thesis
-        run: wget https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf
+      - name: Download and delete thesis
+        run: wget https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf ; rm Complete_thesis.pdf
 
