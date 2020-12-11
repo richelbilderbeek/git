@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "@lintr-bot is strict again"
+    git commit -m "Moved PhD thesis to github.com/richelbilderbeek/phd_thesis (from github.com/richelbilderbeek/thesis)"
     git pull
     git push
   fi
