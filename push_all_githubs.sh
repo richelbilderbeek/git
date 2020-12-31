@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "EOD"
+    git commit -m "Use subshell (instead of backtick) and a more precise regex"
     git pull
     git push
   fi
