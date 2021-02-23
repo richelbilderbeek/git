@@ -9,9 +9,10 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "EOD"
+    git commit -m "Update PhD thesis URL"
     git pull
     git push
+    sleep 60
   fi
 
   cd ..
