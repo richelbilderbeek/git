@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "Use pureseqtmr v1.3"
+    git commit -m "EOD"
     git pull
     git push
   fi
