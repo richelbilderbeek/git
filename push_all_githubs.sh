@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "Use beastier master branch"
+    git commit -m "Use master branch of mauricer"
     git pull
     git push
   fi
