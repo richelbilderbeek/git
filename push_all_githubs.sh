@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "cron at midnight"
+    git commit -m "Removed all 'LazyData: true' from DESCRIPTION to fix CRAN notes"
     git pull
     git push
   fi
