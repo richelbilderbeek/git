@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "Depend on beautier v2.5.2"
+    git commit -m "Use beastier v2.4"
     #git pull
     #git push
   fi
