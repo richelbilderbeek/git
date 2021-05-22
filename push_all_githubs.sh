@@ -9,9 +9,9 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "Removed all 'LazyData: true' from DESCRIPTION to fix CRAN notes"
-    git pull
-    git push
+    git commit -m "Add monthly GHA cron"
+    #git pull
+    #git push
   fi
 
   cd ..
