@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "Add monthly GHA cron"
+    git commit -m "Depend on beautier v2.5.2"
     #git pull
     #git push
   fi
