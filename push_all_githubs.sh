@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "Use mauricerinstall to install BEAST2 packages"
+    git commit -m "Depend on mauricer 2.5"
     #git pull
     #git push
   fi
