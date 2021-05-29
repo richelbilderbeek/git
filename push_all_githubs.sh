@@ -9,9 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "EOD"
-    git pull
-    git push
+    git commit -m "beautier v2.6 is on CRAN"
   fi
 
   cd ..
