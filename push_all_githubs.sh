@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "No LazyData"
+    git commit -m "beautier is on CRAN now"
     git pull
     git push
   fi
