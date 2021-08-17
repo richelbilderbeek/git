@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "EOD"
+    git commit -m "use 'r-lib/covr' (instead of 'jimhester/covr')"
     git pull
     git push
   fi
