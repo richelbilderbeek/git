@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "use 'r-lib/covr' (instead of 'jimhester/covr')"
+    git commit -m "'parse_beast_log' will be deprecated. Use 'parse_beast_tracelog_file' instead"
     git pull
     git push
   fi
