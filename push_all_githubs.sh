@@ -9,7 +9,7 @@ do
   then
     echo "git folder: "$folder
     git add --all :/
-    git commit -m "Use a semicolon instead of a plus before ggplot2::ggsave, as the plus now gives a rightful error"
+    git commit -m "EOD"
     git pull
     git push
   fi
