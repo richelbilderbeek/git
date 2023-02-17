@@ -2,8 +2,7 @@
 
 Branch   |[GitHub Actions](https://github.com/richelbilderbeek/git/actions)                                     
 ---------|------------------------------------------------------------------------------------------------------
-`master` |![R-CMD-check](https://github.com/richelbilderbeek/git/workflows/R-CMD-check/badge.svg?branch=master) 
-`develop`|![R-CMD-check](https://github.com/richelbilderbeek/git/workflows/R-CMD-check/badge.svg?branch=develop)
+`master` |[![check-links](https://github.com/richelbilderbeek/git/actions/workflows/check_links.yaml/badge.svg)](https://github.com/richelbilderbeek/git/actions/workflows/check_links.yaml)
 
 My favorite git commands.
 
