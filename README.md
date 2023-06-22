@@ -59,7 +59,7 @@ git config --global user.email "richel@richelbilderbeek.nl"
 git config --global user.name "richelbilderbeek"
 ```
 
-On any new computer, I just run [setup](setup).
+On any new computer, I just run [setup.sh](setup.sh).
 
 ## Password once per ten hours
 
