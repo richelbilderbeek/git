@@ -85,3 +85,5 @@ and
 ```
 echo 'export GIT_MERGE_AUTOEDIT=no' >> /home/richel/.bashrc && . /home/richel/.bashrc
 ```
+
+THIS IS A TEST
