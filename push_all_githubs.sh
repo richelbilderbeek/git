@@ -1,18 +1,18 @@
 #!/bin/bash
 
-for folder in $(ls -d */ | egrep -v "(Urho3D|mycroft|\.Rcheck/)")
+for folder in ls -d ./*
 do
+  (
+    cd "${folder}" || exit 42
 
-  cd $folder
+    if [ -d ".git" ]
+    then
+      echo "git folder: ${folder}"
+      git add --all :/
+      git commit -m "EOD"
+      git pull
+      git push
+    fi
+  )
 
-  if [ -d ".git" ]
-  then
-    echo "git folder: "$folder
-    git add --all :/
-    git commit -m "EOD"
-    git pull
-    git push
-  fi
-
-  cd ..
 done

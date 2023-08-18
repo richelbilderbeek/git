@@ -1,13 +1,13 @@
 #!/bin/bash
 
-for folder in $(ls -d */)
+for folder in ls -d ./*
 do
-  cd $folder
+  (
+    cd "${folder}" || exit 42
 
-  if [ -d ".git" ]
-  then
-    git pull
-  fi
-
-  cd ..
+    if [ -d ".git" ]
+    then
+      git pull
+    fi
+  )
 done
