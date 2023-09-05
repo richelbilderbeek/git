@@ -7,7 +7,7 @@ do
 
     if [ -d ".git" ]
     then
-      git pull
+      git pull --no-edit
     fi
   )
 done

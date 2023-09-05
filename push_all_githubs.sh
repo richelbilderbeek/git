@@ -10,7 +10,7 @@ do
       echo "git folder: ${folder}"
       git add --all :/
       git commit -m "EOD"
-      git pull
+      git pull --no-edit
       git push
     fi
   )
